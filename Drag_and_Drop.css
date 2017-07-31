@@ -1,0 +1,197 @@
+body{
+  height:auto;
+}
+
+.dropzone,.my_image,.dz-message {
+  width: 200px;
+  background-color: #D3D3D3;
+  margin-left: 20%;
+  margin-top: auto;
+  border-radius: 5px;
+  text-align: center;
+  height:auto;
+  display: inline;
+    position: absolute;
+  top: 100;
+  left: 100;
+   z-index: 10;
+ 
+
+ 
+
+}
+
+
+
+/*.Property_Price_Register{
+    
+    border: 2px solid;
+    border-radius: 25px;
+    font-size: 20px;
+    width: 15%;
+    text-align: center;
+    display: block;
+    float: left;
+    margin-left: 320px;
+
+}
+
+
+.Mytable{
+
+    border: 2px solid;
+    border-radius: 25px;
+    font-size: 20px;
+    width: 15%;
+    text-align: center; 
+    display: block;
+    padding-left: 4px;
+
+
+}
+*/
+
+#Results{
+  height: 20%;
+margin-right: 40px;
+}
+
+
+
+
+
+
+#Form_instructions{
+font-size: 100%;
+color: blue;
+
+}
+
+
+
+.font-change{
+
+ color:blue ;
+
+}
+
+
+
+.navbar-default {
+
+  background-color:red;
+  text-align: center;
+  float: none;
+  margin-left:auto;
+  margin-right: auto;
+  width:50%;
+  margin-top: 2%;
+
+
+   
+
+}
+
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-nav li a:last-child {
+    color: #fff;
+    text-align: center;
+}
+
+
+.navbar-header{
+ color: white;
+
+}
+
+#File_pload{
+color:black;
+
+}
+
+#Map_title{
+   text-align: center;
+
+}
+#Top_header{
+  margin-top: 10px;
+
+}
+
+#Map_title{
+background-color: red;
+}
+
+.bootstrap-iso{
+  width:20%;
+  float: left;
+}
+
+
+
+
+.fm-map-container,svg{
+
+  width: 50%;
+  float: left;
+}
+
+   .dropzone-previews {
+            height: 20px;
+            width: 500px;
+            border: dashed 1px red;
+            background-color: lightblue;
+
+        }
+
+
+
+.map-container{
+
+  display: inline;
+  width: 40%;
+}
+
+
+#Hover_results{
+
+  width:25%;
+  margin-left: 455px;
+  position: absolute;
+
+
+}
+
+.divTable{
+  display: table;
+  
+}
+.divTableRow {
+  display: table-row;
+}
+.divTableHeading {
+  background-color: #EEE;
+  display: table-header-group;
+}
+.divTableCell, .divTableHead {
+  border: 1px solid #999999;
+  display: table-cell;
+  padding: 3px 10px;
+}
+.divTableHeading {
+  background-color: #EEE;
+  display: table-header-group;
+  font-weight: bold;
+}
+.divTableFoot {
+  background-color: #EEE;
+  display: table-footer-group;
+  font-weight: bold;
+}
+.divTableBody {
+  display: table-row-group;
+}

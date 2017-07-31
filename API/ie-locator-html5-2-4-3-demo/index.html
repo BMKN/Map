@@ -1,0 +1,369 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+
+<title>HTML5 Ireland Map Locator 2.4</title>
+<style type="text/css" media="screen">
+    object { outline:none; }
+</style>
+<style>
+body, td {
+	font-family:arial, Trebuchet MS;
+	color:#333333;
+}
+TD {
+background-color:#ffffff;
+}
+
+a:link {
+	color:#06c;
+	text-decoration:underline;
+}
+a:visited {
+	color:#06c;
+	text-decoration:underline;
+}
+a:active {
+	color:#06c;
+	text-decoration:underline;
+}
+a:hover {
+	color:#147;
+	text-decoration:underline;
+}
+.ramka td {
+	border:1px solid #999999;
+}
+.small {
+	font-size:10px;
+	font-family:arial;
+	color:#666666;
+}
+.small2 {
+	font-size:11px;
+	color:#666666;
+}
+.license {
+	margin-top:5px;
+}
+.license TD {
+	border:1px solid #D4DEE6;
+	padding:3 3 3 10px;
+}
+.pad {
+	padding-left:10px;
+	font-size:12px;
+}
+.red {
+	color:#FF0000;
+}
+H2 {
+	padding:0 0 0 0px;
+	margin:10 0 10 0px;
+}
+.license_price {
+	width:200px;
+	border:1px solid #d4dee6;
+	padding: 5px;
+	text-align:center;
+	font-weight:bold;
+}
+.license_info {
+	border:1px solid #d4dee6;
+	padding: 5px;
+	vertical-align:top;
+}
+.license_info h5 {
+	font-size:16px;
+	color:#cc0000;
+	margin:0 0 0 0px;	
+	padding:0 0 0 0px;	
+}
+.license_info h4 {
+	font-size:18px;
+	font-weight:bold;
+	color:#0062c4;
+	margin:0 0 0 0px;
+	padding:0 0 0 0px;
+}
+H3 {
+	color:#111111;
+	margin-top:5px;
+	/*border-bottom: 1px solid #f5f5f5;*/
+}
+.api_td1 {
+	background-color:#f6f8ff;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:5px;
+	font-family:"Courier New", Courier, monospace;
+}
+.api_td2 {
+	background-color:#fafafa;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:20px;
+}
+</style>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+
+<body LEFTMARGIN=30 TOPMARGIN=20 MARGINWIDTH="30" MARGINHEIGHT="20" bgcolor="#c2c2c2">
+
+
+
+
+
+
+
+<table cellpadding=15 cellspacing=10 border=0 width=900 style="background-color:#f4f4f4;">
+<tr>
+<td bgcolor="#ffffff">
+<h2><a href="http://www.fla-shop.com">FLA-SHOP.com - Interactive Maps with Greater Impact!</a></h2></td>
+</td>
+</tr>
+<tr>
+<td bgcolor="#ffffff">
+<h3>HTML5 Ireland Map Locator 2.4</h3>
+
+We introduce a brand new map of Ireland powered by JavaScript. This HTML5 interactive map is perfect for any business to visually represent your business geography: display local offices, dealers, reps, warehouses, stores, support centers etc. and to direct customers to an appropriate landing page on your website.
+<br />
+<br />
+The map is suitable for displaying on any device including iPhone, iPad, Android and obviously on all major desktop browsers. The interactive map shows clickable areas* which you can assign a landing page URL with. Easily adjustable colors, links and popup balloons and other settings allow you to tune the map view to your needs. 
+<br />
+<i><small><font color="#999999">* The term "area" means one of the following: region, state, country, province, county or district, depending on the particular map</font></small></i>
+<br />
+<br />
+The HTML5 map is powered by the Raphael JavaScript library providing the work in the following browsers: Chrome, Firefox, Safari, Opera, IE8-IE12, Microsoft Edge.
+<br />
+<br />
+
+
+</td>
+
+</tr>
+<tr>
+<td bgcolor="#ffffff">
+<h3>Table of Contents</h3>
+
+<ul style="line-height:150%;">
+<li><a href="#features">Features</a></li>
+<li><a href="#map">Map Preview</a></li>
+<li><a href="#new">What's new</a></li>
+<li><a href="#settings">Setup and Install</a>
+<ul>
+<li><a href="#settings">Settings</a></li>
+<li><a href="#install">Install HTML5 Map</a></li>
+<li><a href="#api">API specification</a></li>
+</ul>
+<li><a href="#buynow">Buy now</a></li>
+</li>
+</ul>
+<a name="features"></a>
+</tr>
+
+<tr>
+<td bgcolor="#ffffff">
+<h3>Features</h3>
+<ul>
+<li>Best for real-estate, dealer maps, branch offices location and any geographical-related information
+<li>Responsive/static size of the interactive map
+<li>Popup windows to display detailed information on mouse over
+<li>Works with any mobile devices including iPhone and iPad
+<li>Shows pinpoint markers
+<li>Simple visual customization of the map look
+<li>Wide customizing capabilities
+</ul>
+
+<a name="map"></a>
+</td>	
+</tr>
+
+<tr>
+<td bgcolor="#ffffff">
+
+<h3>Preview</h3>
+
+<div style="max-width:600px;margin:auto;">
+
+<!-- start Fla-shop.com HTML5 Map -->
+	<div id='map-container'></div>
+	<link href="map.css" rel="stylesheet">
+	<script src="raphael.min.js"></script>
+	<script src="settings.js"></script>
+	<script src="map.js"></script>
+	<script>
+	var map = new FlaMap(map_cfg);
+	map.drawOnDomReady('map-container');
+	</script>
+<!-- end HTML5 Map -->
+
+</div>
+
+
+<a name="new"></a>
+</td>	
+</tr>
+
+
+<tr>
+<td bgcolor="#ffffff">
+
+<h3>What's new</h3>
+<strong>Version 2.4</strong><br />
+Version 2.4 features brand new editors for areas of the map and pinpoints. Now, you configure the map 100% visually and then simply copy the JavaScript code to the <strong>settings.js</strong> file of the map.
+<br />
+<br />
+<strong>Version 2.3</strong><br />
+Fix behavior in Microsoft Edge (rendering bugs). Some minor bugfixes and optimizations.
+
+
+<br />
+<br />
+<a name="settings"></a>
+</td>	
+</tr>
+
+<tr>
+<td bgcolor="#ffffff">
+<h3>Settings</h3>
+
+To edit map settings, you should use the visual editors included with the map. There are differences for the demo and the full version of the map.
+<br />
+<br />
+<strong>Editing settings in the demo</strong><br />
+<div style="margin-left:20px;margin-top:15px;">
+Unpack the map package and simply run the editors. When you're done with the settings, click the "Export config" button and copy the auto-generated JavaScript code to the clipboard. Then, open the <strong>settings.js</strong> file from the package and replace its contents with the new config by pasting it from the clipboard.
+<br />
+<br />
+<a href="tools/states_editor.html">Open States Editor</a>
+<br />
+<a href="tools/points_editor.html">Open Point Editor</a>
+</div>
+<br />
+<br />
+<strong>Editing settings in the full version</strong><br />
+<div style="margin-left:20px;margin-top:15px;">
+To edit settings in the full version of the map, you need to upload the licensed map package to your website first. Then, open the editors in your browser. For example, if you uploaded the package to
+<br />
+<br />
+<code>%website_root%/html5map/</code>
+<br />
+<br />
+the URL to open the pinpoint editor then would be: 
+<br />
+<span style="text-decoration: underline; color: #06c">http://www.websitedomain.com/html5map/points_editor.html</span>
+<br />
+<br />
+And the URL to open the region editor would be:
+<br />
+<span style="text-decoration: underline; color: #06c">http://www.websitedomain.com/html5map/state_editor.html</span>
+<br />
+<br />
+</div>
+After you set the preferences of the map, click the "Export config" button and copy the auto-generated JavaScript file to the clipboard. Then, edit the <strong>settings.js</strong> file on your website and replace its contents with the new config by pasting it from the clipboard. Don't forget to upload <strong>settings.js</strong> back to your site.
+<br />
+<br />
+You can also edit the <strong>settings.js</strong> file manually using any third-party text editor. We advise you to use free <a href="http://notepad-plus-plus.org/" target="_blank">Notepad++</a>.  Certainly, you can use any other HTML and plaintext editors as well.<br /><br />
+The complete list of available interactive map parameters is available here: <a href="http://docs.html5maps.com/html5-locator-maps/customization" target="_blank">http://docs.html5maps.com/html5-locator-maps/customization</a>
+
+
+<a name="install"></a>
+</td>	
+</tr>
+
+<tr>
+<td bgcolor="#ffffff">
+<h3>Install HTML5 Map</h3>
+
+In order to install the map on your site, add the following code to the HTML source of the page:
+<br />
+
+<pre style='color:#000020;background:#f6f8ff;'>
+<span style='color:#595979; '>&lt;!-- start Fla-shop.com HTML5 Map --></span>
+	<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>div</span><span style='color:#474796; '> </span><span style='color:#074726; '>id</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>'map-container'</span><span style='color:#0057a6; '>&gt;</span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>div</span><span style='color:#0057a6; '>&gt;</span>
+	<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>link</span><span style='color:#474796; '> </span><span style='color:#074726; '>href</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"map.css"</span><span style='color:#474796; '> </span><span style='color:#074726; '>rel</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"stylesheet"</span><span style='color:#0057a6; '>&gt;</span>
+	<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>script src="raphael.min.js"</span><span style='color:#0057a6; '>&gt;</span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>script</span><span style='color:#0057a6; '>&gt;</span>
+	<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>script src="settings.js"</span><span style='color:#0057a6; '>&gt;</span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>script</span><span style='color:#0057a6; '>&gt;</span>
+	<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>script src="map.js"</span><span style='color:#0057a6; '>&gt;</span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>script</span><span style='color:#0057a6; '>&gt;</span>
+	<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>script</span><span style='color:#0057a6; '>&gt;</span>
+	<span style='color:#200080; font-weight:bold; '>var</span> map <span style='color:#308080; '>=</span> <span style='color:#200080; font-weight:bold; '>new</span> FlaMap<span style='color:#308080; '>(</span>map_cfg<span style='color:#308080; '>)</span><span style='color:#406080; '>;</span>
+	map<span style='color:#308080; '>.</span>drawOnDomReady<span style='color:#308080; '>(</span><span style='color:#1060b6; '>'map-container'</span><span style='color:#308080; '>)</span><span style='color:#406080; '>;</span>
+	<span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>script</span><span style='color:#0057a6; '>&gt;</span>
+<span style='color:#595979; '>&lt;!-- end HTML5 Map --></span>
+</pre>
+
+Note that you should upload all files to your server first.<br />
+Make sure you have specified the full path to the files in the code including subfolders.
+
+<pre style='color:#000020;background:#f6f8ff;'>
+<span style='color:#595979; '>&lt;!-- start Fla-shop.com HTML5 Map --></span>
+	<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>div</span><span style='color:#474796; '> </span><span style='color:#074726; '>id</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>'map-container'</span><span style='color:#0057a6; '>&gt;</span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>div</span><span style='color:#0057a6; '>&gt;</span>
+	<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>link</span><span style='color:#474796; '> </span><span style='color:#074726; '>href</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"<span style='color:#ff0000;'>/directory/</span>map.css"</span><span style='color:#474796; '> </span><span style='color:#074726; '>rel</span><span style='color:#308080; '>=</span><span style='color:#1060b6; '>"stylesheet"</span><span style='color:#0057a6; '>&gt;</span>
+	<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>script src="<span style='color:#ff0000;'>/directory/</span>raphael.min.js"</span><span style='color:#0057a6; '>&gt;</span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>script</span><span style='color:#0057a6; '>&gt;</span>
+	<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>script src="<span style='color:#ff0000;'>/directory/</span>settings.js"</span><span style='color:#0057a6; '>&gt;</span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>script</span><span style='color:#0057a6; '>&gt;</span>
+	<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>script src="<span style='color:#ff0000;'>/directory/</span>map.js"</span><span style='color:#0057a6; '>&gt;</span><span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>script</span><span style='color:#0057a6; '>&gt;</span>
+	<span style='color:#0057a6; '>&lt;</span><span style='color:#200080; font-weight:bold; '>script</span><span style='color:#0057a6; '>&gt;</span>
+	<span style='color:#200080; font-weight:bold; '>var</span> map <span style='color:#308080; '>=</span> <span style='color:#200080; font-weight:bold; '>new</span> FlaMap<span style='color:#308080; '>(</span>map_cfg<span style='color:#308080; '>)</span><span style='color:#406080; '>;</span>
+	map<span style='color:#308080; '>.</span>drawOnDomReady<span style='color:#308080; '>(</span><span style='color:#1060b6; '>'map-container'</span><span style='color:#308080; '>)</span><span style='color:#406080; '>;</span>
+	<span style='color:#0057a6; '>&lt;/</span><span style='color:#200080; font-weight:bold; '>script</span><span style='color:#0057a6; '>&gt;</span>
+<span style='color:#595979; '>&lt;!-- end HTML5 Map --></span>
+</pre>
+
+
+
+<a name="api"></a>
+</td>	
+</tr>
+<tr>
+<td bgcolor="#ffffff">
+
+<h3>API specification</h3>
+
+Version 2.0+ use new API with improved functions, you can find API description by following <a href="http://docs.html5maps.com/html5-locator-maps/api">this link</a>
+
+<br />
+<br />
+
+
+
+<a name="buynow"></a>
+</td>	
+</tr>
+
+
+
+<tr>
+<td bgcolor="#ffffff">
+<h3>Fla-shop.com Licensing Information</h3>
+
+<table class=license border=0 width=99%>
+<tr>
+       <td bgcolor="#ffffff" STYLE="font-size:16px;text-align:center;">SINGLE SITE LICENSE</td>
+</tr>
+<tr>
+       <td bgcolor="#F6F8FB" width=50% STYLE="font-size:20px;text-align:center;"><strong>$69</strong></td>
+</tr>
+<tr>
+       <td bgcolor="#c70d12" width=50% STYLE="font-size:16px;text-align:center;border:#ff0000;padding:5px 0 5px 0px;background-color:#c70d12;"><strong><a href="https://www.bluesnap.com/jsp/buynow.jsp?contractId=3159906" style="color:#ffffff;">BUY NOW!</a></strong></td>
+</tr>
+
+</table>
+
+
+</td>
+</tr>
+<tr>
+<td bgcolor="#ffffff">
+Thank you for using our product.  Please feel free to contact us with any questions regarding our product.
+<br>
+<br>
+<a href="http://www.fla-shop.com">More maps and Information on website Fla-shop.com</a>
+</td>
+</tr>
+</table>
+
+</body>
+</html>
+
